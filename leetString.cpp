@@ -8,11 +8,12 @@ Output: "fl"*/
 /*class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
-        sort(strs.begin(),strs.end());
+       sort(strs.begin(),strs.end());
         string ans="";
-        string S=strs[0],E=strs[strs.size()-1];
-        for(int i=0;i<=S.size();i++){
-            if(S[i]!=E[i]){
+        string S=strs[0];
+         string E=strs[strs.size()-1];
+        for(int i=0;i<min(S.size(),E.size());i++){
+           if(S[i]!=E[i]){
                 return ans;
             }else{
                ans=ans+S[i];
