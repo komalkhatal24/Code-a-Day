@@ -5,6 +5,8 @@ Output: true
 Example 2:
 Input: nums = [1,2,3,4]
 Output: false*/
+//code
+
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -21,6 +23,5 @@ public:
            
         }
         return false;
-
-    }
+        }
 };
