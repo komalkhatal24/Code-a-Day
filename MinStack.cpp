@@ -32,10 +32,6 @@ minStack.top();    // return 0
 minStack.getMin(); // return -2
  
 */
-
-
-
-
 //Min stack
 class MinStack {
 public:
