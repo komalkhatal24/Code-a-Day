@@ -7,7 +7,7 @@ Input: nums = [1,2,3,4]
 Output: false*/
 //code
 
-class Solution {
+/*class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         // if(nums.size()<2){return false;}
@@ -24,4 +24,4 @@ public:
         }
         return false;
         }
-};
+};*/
