@@ -9,7 +9,7 @@ Input: s = "LVIII"
 Output: 58
 Explanation: L = 50, V= 5, III = 3.*/
 
-class Solution {
+/*class Solution {
 public:
     int romanToInt(string s) {
        
@@ -25,4 +25,4 @@ public:
        }
         return ans;
     }
-    };
+    };*/
